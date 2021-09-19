@@ -877,7 +877,7 @@ emgwr_prediction_points = function(Xc, Xe, Xs, y, emgwr, H_hat, delta1, delta2, 
 }
 #emgwr_prediction_points_no_param----
 #prediction for points with their coordinates without already computed delta1, delta2 and H_hat
-emgwr_prediction_points_no_param = function(Xc, Xe, Xs, y, emgwr, method, bwe, bws, utm_ev_sp, utm_st_sp, pc, pe, ps, pcoords, alfa){
+emgwr_prediction_points_no_param = function(Xc, Xe, Xs, y, emgwr, method, bwe, bws, utm_ev_sp, utm_st_sp, pc, pe, ps, pcoords, alfa, n_sample){
   
   N = length(y)
   K = dim(pcoords)[1]
