@@ -1848,7 +1848,7 @@ for (i in 1:n_bwe){
   }
 }
 
-bw_best = which(bw_table == max(bw_table), arr.ind = T)
+bw_best = which(bw_table == min(bw_table), arr.ind = T)
 bwe = bwe_tot[bw_best[1]]
 bws = bws_tot[bw_best[2]]</code></pre>
 <!-- rnb-source-end -->
